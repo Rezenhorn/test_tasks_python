@@ -4,7 +4,6 @@ from unittest.mock import patch
 def form_dict(first_list: list, second_list: list) -> None:
     '''Принимает два списка и печатает словарь
     (ключ из первого списка, значение из второго), упорядоченный по ключам.'''
-
     if len(first_list) == len(second_list):
         print('Длина первого списка не должна быть равна длине второго.')
         return
